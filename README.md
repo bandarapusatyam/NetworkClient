@@ -1,10 +1,10 @@
 
-#Network client using C# and XAML. Send request to the server and receive response from server
+# Network client using C# and XAML. Send request to the server and receive response from server
 
 
-Request Structure
+# Request Structure
 
-Name	Length	
+## Name	Length	
 
 Header	2 bytes	
 Version	1 byte	
@@ -14,9 +14,9 @@ Data	Variable, 0 to 1,048,576 bytes
 Checksum	1 byte	
 
 
-Response Structure
+# Response Structure
 
-Name	Length	
+## Name	Length	
 
 Header	2 bytes	
 Status	1 byte	
